@@ -1,0 +1,58 @@
+//it is using the inheritence of the Mapper from the Hadoop Framework
+
+// extends usibg to link Mapper to the parent
+
+// abstract is using to create the parent then the inherited class is calling with interface keyword
+// Composition is about the reusable codes!! *(Modularity equal composition over the inheritance)
+
+//it is defining this way: private final Name name;
+
+//final keyword is a non-acces modifier used for classes attributes and methos, it makes them non-changeable
+// ... implements serializable | is using to implement an interface
+
+
+public class Main {
+  final int x = 10;
+
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    myObj.x = 25; // will generate an error: cannot assign a value to a final variable
+    System.out.println(myObj.x);
+  }
+}
+
+
+// Abstraction is a way to hede code complexity, abstract methods can not have void cause of it is the
+
+// define a constant value that is not changing during the execution
+public static int WATER_CAPACITY = 100;
+
+//interface is implementing to the inheritance, behavior of the parent
+
+// new keyword is using to intruduce a new constructor
+
+
+CoffeeMachine cofeeMachine 0 new CappuccinoMaker(new Mill(), new water());
+
+// Polymorphism //
+// having many forms
+//Override in the DriverBigDData implements to the Polymorphism
+
+  @Override
+  public int run(String[] args) throws Exception {
+
+      Path inputPath;
+      Path outputDir, outputDir2;
+      int numberOfReducers;
+      int exitCode;
+      // implementation of the jobs
+  }
+
+List<T> is implementing to the objects that are using
+
+
+// Design Pattern
+is designing the SW design(singlton, observer)
+
+keywords: instance, observers(get acces to the user to get in and use each part of website),
+
